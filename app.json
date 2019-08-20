@@ -16,16 +16,34 @@
   "image": "heroku/nodejs",
   "env": {
     "ENV_TITLE": {
-        "description":"ENV_TITLE"
+        "description":"Titulo del portal",
+        "value":"ENV_TITLE",
+        "required":"true"
     },
     "ENV_SUBTITLE": {
-        "description":"ENV_SUBTITLE"
+        "description":"Subtitulo del portal",
+        "value":"ENV_SUBTITLE",
+        "required":"true"
     },
     "GOOGLE_ANALYTISCS_KEY":{
-        "description":"GOOGLE_ANALYTISCS_KEY"
+        "description":"Key para el seguimiento del uso del portal con google analytics",
+        "value":"GOOGLE_ANALYTISCS_KEY",
+        "required":"false"
     },
-    "GOOGLE_CALENDAR_IFRAME":{
-      "description":"GOOGLE_CALENDAR_IFRAME"
+    "GOOGLE_CALENDAR_IFRAME_URL":{
+      "description":"URL del iframe Calendario",
+      "value":"GOOGLE_CALENDAR_IFRAME_URL",
+      "required":"true"
+    },
+    "GOOGLE_CALENDAR_IFRAME_WIDTH":{
+      "description":"",
+      "value":"800",
+      "required":"true"
+    },
+    "GOOGLE_CALENDAR_IFRAME_HEIGHT":{
+      "description":"",
+      "value":"600",
+      "required":"true"
     }
   }
 }
