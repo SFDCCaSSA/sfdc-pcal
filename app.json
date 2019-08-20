@@ -1,0 +1,31 @@
+{
+  "name": "sfdccal",
+  "description": "Portal para mostrar calendario de google",
+  "repository": "",
+  "logo": "https://cdn.jsdelivr.net/gh/heroku/node-js-getting-started/public/node.svg",
+  "keywords": [
+  	"node",
+    "heroku",
+    "express",
+    "trailmix",
+    "lightning",
+    "design",
+    "system",
+    "cassa"
+],
+  "image": "heroku/nodejs",
+  "env": {
+    "ENV_TITLE": {
+        "description":"ENV_TITLE"
+    },
+    "ENV_SUBTITLE": {
+        "description":"ENV_SUBTITLE"
+    },
+    "GOOGLE_ANALYTISCS_KEY":{
+        "description":"GOOGLE_ANALYTISCS_KEY"
+    },
+    "GOOGLE_CALENDAR_IFRAME":{
+      "description":"GOOGLE_CALENDAR_IFRAME"
+    }
+  }
+}
