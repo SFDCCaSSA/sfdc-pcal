@@ -32,7 +32,7 @@
     },
     "GOOGLE_CALENDAR_IFRAME_URL":{
       "description":"URL del iframe Calendario",
-      "value":"GOOGLE_CALENDAR_IFRAME_URL",
+      "value":"",
       "required":"true"
     },
     "GOOGLE_CALENDAR_IFRAME_WIDTH":{
